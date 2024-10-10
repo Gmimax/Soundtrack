@@ -7,3 +7,25 @@
 body{
     background: #000;
 }
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1380px;
+    height: 100px;
+}
+.main{
+    width: 1360px;
+    height: 900px;
+    top: 180px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+     
+}
+.Sign{
+    background-color: #c5a576;
+}
+.Login{
+    background-color: #c5a576;
+}
