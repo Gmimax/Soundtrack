@@ -9,10 +9,10 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 1380px;
+    width: 100hv;
     height: 100px;
+    flex-direction: row;
 }
 .main{
     width: 1360px;
@@ -23,9 +23,48 @@ header{
     opacity: 0px;
      
 }
-.Sign{
-    background-color: #c5a576;
+.lib{
+  list-style: none; 
+  padding: 0;
+  margin-right: 535px ;
+  display: flex; 
+  gap: 60px;
+}
+h3{
+  margin-left:20px;
+}
+
+.logo{
+  display: flex;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+}
+.fulllog{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 80px;
+  margin-left: 50px;
 }
 .Login{
-    background-color: #c5a576;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F2EC;
+  color: #553C16;
+  width: 160px;
+  height: 100px;
+  border-radius: 0 0 0 30%;
 }
+.Sign{
+  display: flex;
+  color: #553C16;
+  margin-right: 60px;
+}
+
